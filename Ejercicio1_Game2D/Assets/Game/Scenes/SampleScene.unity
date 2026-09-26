@@ -573,8 +573,8 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 848939461
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -18943,6 +18943,7 @@ GameObject:
   - component: {fileID: 1279468978}
   - component: {fileID: 1279468981}
   - component: {fileID: 1279468980}
+  - component: {fileID: 1279468982}
   m_Layer: 0
   m_Name: john_idle_1
   m_TagString: Untagged
@@ -18995,8 +18996,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1548164965
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 86465375316498939, guid: 54550081a704bbe46b2ed42d511cfe6b, type: 3}
@@ -19085,7 +19086,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -19097,6 +19098,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1279468982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279468977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3af63e8a9a3023b44a67e3b28b257526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ControladorPersonaje2D
+  Velocidad: 5
+  FuerzaSalto: 12
 --- !u!1 &1331328560
 GameObject:
   m_ObjectHideFlags: 0
@@ -19730,5 +19745,5 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 209968491}
   - {fileID: 709662869}
-  - {fileID: 1331328562}
   - {fileID: 1279468979}
+  - {fileID: 1331328562}
