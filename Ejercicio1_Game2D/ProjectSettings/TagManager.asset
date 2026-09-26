@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Suelo
   layers:
   - Default
   - TransparentFX
@@ -43,6 +44,9 @@ TagManager:
     locked: 0
   - name: Terreno
     uniqueID: 848939461
+    locked: 0
+  - name: "Cron\xF3metro"
+    uniqueID: 4099455331
     locked: 0
   - name: Player
     uniqueID: 2746802331
